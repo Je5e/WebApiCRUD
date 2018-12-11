@@ -10,14 +10,14 @@ namespace NWind.Service.Controllers
 {
     public class ProductsController : ApiController
     {
-        IRepositoryProduct Repository = new RepositoryMemoryData();
+      static IRepositoryProduct  Repository =
+            new RepositoryMemoryData();
 
 
         // Métodos de acción, a las peteciones para CRUD.
         public ProductsController()
         {
-            RepositoryMemoryData RMD = new RepositoryMemoryData(); // Le regalo un libro de IIS, quien responda esta pregunta.
-            IRepositoryProduct IRP = RMD;
+           
       
         }
         // POST api/products
@@ -34,29 +34,44 @@ namespace NWind.Service.Controllers
         [HttpGet]
         public List<Product> GetAllProducts()
         {
-            // TODO
+            
             return Repository.GetAll();
         }
 
         // GET api/products/RetrieveProductByID/id
-        [ActionName("RetrieveProductByID")]
+        //[ActionName("RetrieveProductByID")]
+        [HttpGet]
         public Product RetrieveProductByID(int id)
         {
-            // TODO
-            return null;
+
+            return Repository.GetProduct(id);
         }
 
         // PUT api/products/id
         [HttpPut]
         public void UpdateProduct(int id, Product productToUpdate)
         {
-            // TODO
+           
+            productToUpdate.ProductID = id;
+            if (!Repository.UpdateProduct(productToUpdate))
+            {
+                throw new HttpResponseException(
+                    HttpStatusCode.NotFound);
+            }
+            
         }
 
         // DELETE
+        [HttpDelete]
         public void RemoveProduct(int id)
         {
-
+            Product ProductToDelete = Repository.GetProduct(id);
+            if (ProductToDelete ==null)
+            {
+                throw new HttpResponseException
+                    (HttpStatusCode.NotFound);
+            }
+            Repository.RemoveProduct(ProductToDelete.ProductID);
         }
     }
 }
