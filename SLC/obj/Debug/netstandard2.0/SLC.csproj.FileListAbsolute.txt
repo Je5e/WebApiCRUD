@@ -1,0 +1,12 @@
+C:\Demos1\WebApiCRUD\SLC\obj\Debug\netstandard2.0\SLC.csprojAssemblyReference.cache
+C:\Demos1\WebApiCRUD\SLC\obj\Debug\netstandard2.0\SLC.csproj.CoreCompileInputs.cache
+C:\Demos1\WebApiCRUD\SLC\obj\Debug\netstandard2.0\SLC.AssemblyInfoInputs.cache
+C:\Demos1\WebApiCRUD\SLC\obj\Debug\netstandard2.0\SLC.AssemblyInfo.cs
+C:\Demos1\WebApiCRUD\SLC\bin\Debug\netstandard2.0\SLC.deps.json
+C:\Demos1\WebApiCRUD\SLC\bin\Debug\netstandard2.0\SLC.dll
+C:\Demos1\WebApiCRUD\SLC\bin\Debug\netstandard2.0\SLC.pdb
+C:\Demos1\WebApiCRUD\SLC\bin\Debug\netstandard2.0\Entities.dll
+C:\Demos1\WebApiCRUD\SLC\bin\Debug\netstandard2.0\Entities.pdb
+C:\Demos1\WebApiCRUD\SLC\obj\Debug\netstandard2.0\SLC.csproj.CopyComplete
+C:\Demos1\WebApiCRUD\SLC\obj\Debug\netstandard2.0\SLC.dll
+C:\Demos1\WebApiCRUD\SLC\obj\Debug\netstandard2.0\SLC.pdb
