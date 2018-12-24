@@ -8,7 +8,7 @@ namespace NWind.Service.Models
         Product CreateProduct(Product newProduct);
         List<Product> GetAll();
         Product GetProduct(int id);
-        void RemoveProduct(int id);
+        bool RemoveProduct(int id);
         bool UpdateProduct(Product productToUpdate);
     }
 }

@@ -42,9 +42,15 @@ namespace NWind.Service.Models
             return newProduct;
         }
 
-        public void RemoveProduct(int id)
+        public bool RemoveProduct(int id)
         {
-            Products.RemoveAll(p => p.ProductID == id);
+            bool Result = false;
+           var pr = Products.RemoveAll(p => p.ProductID == id);
+            if (pr >0 )
+            {
+                Result = true;
+            }
+            return Result;
         }
 
         public bool UpdateProduct(Product productToUpdate)

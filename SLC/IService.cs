@@ -9,8 +9,8 @@ namespace SLC
     {
         Product CreateProduct(Product newProduct);
         Product RetrieveProductByID(int ID);
-        void UpdateProduct(int ID,Product productToUpdate);
-        void RemoveProduct(int ID);
+        bool UpdateProduct(int ID,Product productToUpdate);
+        bool RemoveProduct(int ID);
         List<Product> FilterProductsByCategoryID(int categoryID);
         List<Product> RetrieveAllProduct();
 

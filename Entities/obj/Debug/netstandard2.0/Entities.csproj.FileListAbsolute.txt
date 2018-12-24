@@ -1,7 +1,6 @@
 C:\Demos1\WebApiCRUD\Entities\bin\Debug\netstandard2.0\Entities.deps.json
 C:\Demos1\WebApiCRUD\Entities\bin\Debug\netstandard2.0\Entities.dll
 C:\Demos1\WebApiCRUD\Entities\bin\Debug\netstandard2.0\Entities.pdb
-C:\Demos1\WebApiCRUD\Entities\obj\Debug\netstandard2.0\Entities.csprojAssemblyReference.cache
 C:\Demos1\WebApiCRUD\Entities\obj\Debug\netstandard2.0\Entities.csproj.CoreCompileInputs.cache
 C:\Demos1\WebApiCRUD\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfoInputs.cache
 C:\Demos1\WebApiCRUD\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfo.cs

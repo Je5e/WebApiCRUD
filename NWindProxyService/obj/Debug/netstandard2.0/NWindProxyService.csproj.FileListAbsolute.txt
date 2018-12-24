@@ -1,0 +1,14 @@
+C:\Demos1\WebApiCRUD\NWindProxyService\bin\Debug\netstandard2.0\NWindProxyService.deps.json
+C:\Demos1\WebApiCRUD\NWindProxyService\bin\Debug\netstandard2.0\NWindProxyService.dll
+C:\Demos1\WebApiCRUD\NWindProxyService\bin\Debug\netstandard2.0\Entities.dll
+C:\Demos1\WebApiCRUD\NWindProxyService\bin\Debug\netstandard2.0\SLC.dll
+C:\Demos1\WebApiCRUD\NWindProxyService\bin\Debug\netstandard2.0\Entities.pdb
+C:\Demos1\WebApiCRUD\NWindProxyService\bin\Debug\netstandard2.0\SLC.pdb
+C:\Demos1\WebApiCRUD\NWindProxyService\obj\Debug\netstandard2.0\NWindProxyService.csprojAssemblyReference.cache
+C:\Demos1\WebApiCRUD\NWindProxyService\obj\Debug\netstandard2.0\NWindProxyService.csproj.CoreCompileInputs.cache
+C:\Demos1\WebApiCRUD\NWindProxyService\obj\Debug\netstandard2.0\NWindProxyService.AssemblyInfoInputs.cache
+C:\Demos1\WebApiCRUD\NWindProxyService\obj\Debug\netstandard2.0\NWindProxyService.AssemblyInfo.cs
+C:\Demos1\WebApiCRUD\NWindProxyService\obj\Debug\netstandard2.0\NWindProxyService.csproj.CopyComplete
+C:\Demos1\WebApiCRUD\NWindProxyService\bin\Debug\netstandard2.0\NWindProxyService.pdb
+C:\Demos1\WebApiCRUD\NWindProxyService\obj\Debug\netstandard2.0\NWindProxyService.dll
+C:\Demos1\WebApiCRUD\NWindProxyService\obj\Debug\netstandard2.0\NWindProxyService.pdb

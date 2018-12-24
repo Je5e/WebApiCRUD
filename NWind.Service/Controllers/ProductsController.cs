@@ -38,7 +38,7 @@ namespace NWind.Service.Controllers
 
         // PUT api/products/id
         [HttpPut]
-        public void UpdateProduct(int ID, Product productToUpdate)
+        public bool UpdateProduct(int ID, Product productToUpdate)
         {
            
             productToUpdate.ProductID = ID;
@@ -47,21 +47,26 @@ namespace NWind.Service.Controllers
                 throw new HttpResponseException(
                     HttpStatusCode.NotFound);
             }
+            return true;
             
         }
         
         // DELETE api/products/removeProduct?id={id}
         // api/products/removeproduct/id
         [HttpDelete]
-        public void RemoveProduct(int ID)
+        public bool RemoveProduct(int ID)
         {
-            Product ProductToDelete = Repository.GetProduct(ID);
-            if (ProductToDelete ==null)
+            
+            //Product ProductToDelete = Repository.GetProduct(ID);
+          var Result  = Repository.RemoveProduct(ID);
+
+            if (!Result)
             {
+                Result = false;
                 throw new HttpResponseException
                     (HttpStatusCode.NotFound);
             }
-            Repository.RemoveProduct(ProductToDelete.ProductID);
+            return Result;
         }
 
         [HttpGet]
@@ -77,5 +82,7 @@ namespace NWind.Service.Controllers
         {
             return Repository.GetAll();
         }
+
+       
     }
 }
